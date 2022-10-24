@@ -313,8 +313,8 @@ let boatRotateArrayP1: string[] = []
 let currentBoat = 0
 let rotateFlag = ""
 let currentPlayer = ""
+tiles.setCurrentTilemap(tilemap`level2`)
 currentPlayer = "Player1"
-tiles.setCurrentTilemap(tilemap`level1`)
 initP2()
 rotateFlag = "nothing"
 currentBoat = 0
